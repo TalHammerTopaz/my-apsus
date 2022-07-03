@@ -1,0 +1,14 @@
+
+
+.keeper-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "sidenav notesapp";
+}
+
+.notes-app{
+    margin: 0;
+    grid-area: notesapp;
+   
+}

@@ -1,0 +1,81 @@
+/* MOBILE ONLY */
+
+@media (max-width: 840px) {
+
+
+
+.book-details{
+    display: block;
+}
+
+.book-details-img{ 
+    max-height: 50%; 
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+
+.book-info{
+    width: 100%;
+    margin-left: 10px;
+}
+
+   
+}
+
+/* SMALL */
+/* @media (min-width: 640px) {
+    
+} */
+
+/* MEDIUM */
+/* @media (min-width: 840px) {
+    
+} */
+
+/* LARGE */
+@media (max-width: 1500px) {
+    .note-add{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2em;
+    }
+
+    .add-open{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .add-close{
+        display: none;
+    }
+    
+    .note-add-icon-container{
+        border: 1px solid darkgray;
+        padding: 1em ;
+        border-radius: 5px;
+        width: fit-content;      
+    }
+
+    .add-mobile{
+        display: block;
+    }
+
+    .note-add input{
+        padding: 1em;
+        padding-bottom: 0;
+        margin: 0;  
+    }
+    
+    .note-add button{
+        margin-top: 1em;  
+    }  
+   
+    .add-mobile{
+        display: block;
+        
+    }
+}

@@ -1,0 +1,34 @@
+.side-bar-email {
+    display: flex;
+    margin-left: 0;
+    cursor: pointer;
+    padding-left: 2rem;
+    margin-right: 1rem;
+    display: flex;
+    color: rgb(75, 74, 74);
+    flex-direction: column;
+
+
+}
+
+.side-bar-email li:hover {
+    background-color: rgba(212, 206, 206, 0.559);
+    border-end-end-radius: 20px;
+    border-start-start-radius: 20px;
+}
+
+.side-bar-email ul {
+    margin-left: 0px;
+}
+
+.side-bar-email li {
+    padding: 8px;
+
+}
+
+.side-bar-email i {
+    padding-right: 15px;
+}
+.app-navigation{
+    z-index: 10;
+}

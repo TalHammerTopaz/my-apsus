@@ -1,0 +1,80 @@
+
+.note-add{
+    display: flex;
+    /* background-color: aqua; */
+    max-width: 100vh;
+    margin: 3.5em;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.51);
+    border-radius: 0.5em;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.note-add form{
+    display: inline;
+    /* padding: 1em; */
+}
+
+
+.note-add input{
+    padding: 0.5em;
+    margin: 1em;
+    border: none;
+    font-size: 1.5em;
+
+}
+
+
+
+.add-mobile{
+    display: none;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 10px 50px;
+    width:2em;
+    height:2em;
+}
+
+.note-add-icon-container{
+    justify-content: flex-end;
+    margin-top: 2em;
+}
+
+.note-add-icon{
+    display: inline;
+    margin: 0.3em;
+    padding: 0.3em;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.active{
+    background-color: rgba(255, 217, 0, 0.418);
+    
+
+}
+
+.note-add button{
+    border:none;
+    font-size: 1.5em;
+    width: 2em;
+    border-radius: 50%;
+    margin-left: 1em;
+    background-color: none;
+    cursor: pointer;
+}
+
+
+.todo-list-item {
+    margin-left: 5em;
+}
+
+
+.plus-list {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.trashIcon{
+    margin-right: 2rem;
+}
+.undoIcon{
+    margin-right: 2rem;
+}
+.sender {
+    color: black;
+    font-weight: 600;
+}
+.email-contact-container{
+    display: flex;
+    flex-basis: auto;
+    
+}
+.email-body-container{
+    width: 55rem;
+    margin-left: 8rem;
+}

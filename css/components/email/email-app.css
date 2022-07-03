@@ -1,0 +1,13 @@
+.email-app-container {
+    display: grid;
+    grid-template-columns: 20% 72%;
+}
+/* 
+input[type='radio']:checked:after {
+  background-color: aqua;
+} */
+
+.sortinput{
+    background-color: cadetblue;
+    margin-left: 2rem;
+}
